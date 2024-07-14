@@ -23,7 +23,7 @@ DistributedNotificationCenter.default.addObserver(
         print("updated with \(notification)")
         let light: Int = UserDefaults.standard.string(forKey: "AppleInterfaceStyle") == nil ? 1 : 0
 
-        let _ = shell("./switch \(light)")
+        let _ = shell("/usr/local/bin/themeswitch \(light)")
 }
 
 NSApplication.shared.run()
