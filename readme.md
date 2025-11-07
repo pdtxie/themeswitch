@@ -15,7 +15,7 @@ vim.api.nvim_create_autocmd({"Signal"}, {
 	end
 })
 ```
-- run `install`
+- run `./install`
 
 
 last tested for kitty v0.35.2 and nvim 0.10.0

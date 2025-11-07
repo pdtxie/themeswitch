@@ -3,10 +3,10 @@
 <plist version="1.0">
     <dict>
         <key>Label</key>
-        <string>com.tim-xie.themeswitch</string>
+        <string>nz.xie.themeswitch</string>
 
         <key>ServiceDescription</key>
-        <string>Syncs Kitty and Neovim themes based on system theme</string>
+        <string>Syncs Neovim and Ghostty or Kitty themes based on system theme</string>
 
         <key>Program</key>
 		<string>/usr/local/bin/themeswitchd</string>
