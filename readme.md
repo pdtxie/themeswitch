@@ -1,6 +1,6 @@
 ### automatic theme switcher for Kitty and Neovim
 
-script that listens for macOS theme change notification and triggers a theme change for kitty and neovim
+script that listens for macOS theme change notification `AppleInterfaceThemeChangedNotification` instead of polling for interface style, and triggers a theme change for kitty and neovim
 
 supports kitty themes, neovim colourschemes and lualine themes
 
